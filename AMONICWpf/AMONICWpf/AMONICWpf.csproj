@@ -7,4 +7,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DS2017_TP09_2_colors.png" />
+    <None Remove="DS2017_TP09_2_colors_%402x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="DS2017_TP09_2_colors.png" />
+    <Resource Include="DS2017_TP09_2_colors_@2x.png" />
+  </ItemGroup>
+
 </Project>
